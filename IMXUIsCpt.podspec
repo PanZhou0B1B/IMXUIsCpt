@@ -89,7 +89,38 @@ Pod::Spec.new do |s|
     tabkit.public_header_files = [
       'IMXUIsCpt/Cpts/IMXTabBarKit/*.{h}'
     ]
-    tabkit.dependency 'Masonry' ,'1.1.0'
+    tabkit.dependency 'Masonry' ,'~> 1.1.0'
   end
 
+# IMXListView Cpt
+  s.subspec 'IMXListView' do |list|
+    list.source_files  = 'IMXUIsCpt/Cpts/IMXListView/*.{h,m}'
+    list.public_header_files = [
+     'IMXUIsCpt/Cpts/IMXListView/*.{h}'
+    ]
+    list.dependency 'MJRefresh' ,'~> 3.1.15.1'
+    list.dependency 'IMXUIsCpt/IMXUIs'
+    list.dependency 'Masonry' ,'~> 1.1.0'
+
+    list.subspec 'IMXReuseUIs' do |reuse|
+    reuse.source_files  = 'IMXUIsCpt/Cpts/IMXListView/IMXReuseUIs/*.{h,m}'
+    reuse.public_header_files = [
+      'IMXUIsCpt/Cpts/IMXListView/IMXReuseUIs/*.{h}'
+    ]
+    end
+    list.subspec 'Layout' do |layout|
+    layout.source_files  = 'IMXUIsCpt/Cpts/IMXListView/Layout/*.{h,m}'
+    layout.public_header_files = [
+    'IMXUIsCpt/Cpts/IMXListView/Layout/*.{h}'
+    ]
+    end
+  end
+
+# IMXUIs Cpt
+s.subspec 'IMXUIs' do |uis|
+uis.source_files  = 'IMXUIsCpt/Libs/2nd/IMXUIs/*.{h,m}'
+uis.public_header_files = [
+'IMXUIsCpt/Libs/2nd/IMXUIs/*.{h}'
+]
+end
 end
