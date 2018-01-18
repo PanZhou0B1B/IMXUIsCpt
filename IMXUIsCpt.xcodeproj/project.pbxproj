@@ -76,6 +76,20 @@
 		A15FF6DF201090EF003D4C07 /* IMXTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6C4201090EF003D4C07 /* IMXTableView.m */; };
 		A15FF6E2201090EF003D4C07 /* IMXCollectionViewTagsFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6C8201090EF003D4C07 /* IMXCollectionViewTagsFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF6E3201090EF003D4C07 /* IMXCollectionViewTagsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6C9201090EF003D4C07 /* IMXCollectionViewTagsFlowLayout.m */; };
+		A15FF6EB2010B2B9003D4C07 /* IMXSafeAreaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6E62010B2B9003D4C07 /* IMXSafeAreaKit.h */; };
+		A15FF6EC2010B2B9003D4C07 /* UIView+IMXSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6E72010B2B9003D4C07 /* UIView+IMXSafeArea.h */; };
+		A15FF6ED2010B2B9003D4C07 /* UIView+IMXSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6E82010B2B9003D4C07 /* UIView+IMXSafeArea.m */; };
+		A15FF6EE2010B2B9003D4C07 /* UIViewController+IMXSafeArea.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6E92010B2B9003D4C07 /* UIViewController+IMXSafeArea.h */; };
+		A15FF6EF2010B2B9003D4C07 /* UIViewController+IMXSafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6EA2010B2B9003D4C07 /* UIViewController+IMXSafeArea.m */; };
+		A15FF6FA2010B2C7003D4C07 /* IMXSegBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6F12010B2C7003D4C07 /* IMXSegBaseCell.h */; };
+		A15FF6FB2010B2C7003D4C07 /* IMXSegBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6F22010B2C7003D4C07 /* IMXSegBaseCell.m */; };
+		A15FF6FC2010B2C7003D4C07 /* IMXSegCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6F32010B2C7003D4C07 /* IMXSegCollectionView.h */; };
+		A15FF6FD2010B2C7003D4C07 /* IMXSegCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6F42010B2C7003D4C07 /* IMXSegCollectionView.m */; };
+		A15FF6FE2010B2C7003D4C07 /* IMXSegContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6F52010B2C7003D4C07 /* IMXSegContainer.h */; };
+		A15FF6FF2010B2C7003D4C07 /* IMXSegContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6F62010B2C7003D4C07 /* IMXSegContainer.m */; };
+		A15FF7002010B2C7003D4C07 /* IMXSegmentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6F72010B2C7003D4C07 /* IMXSegmentKit.h */; };
+		A15FF7012010B2C7003D4C07 /* IMXSegmentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF6F82010B2C7003D4C07 /* IMXSegmentModel.h */; };
+		A15FF7022010B2C7003D4C07 /* IMXSegmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF6F92010B2C7003D4C07 /* IMXSegmentModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +163,20 @@
 		A15FF6C4201090EF003D4C07 /* IMXTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTableView.m; sourceTree = "<group>"; };
 		A15FF6C8201090EF003D4C07 /* IMXCollectionViewTagsFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXCollectionViewTagsFlowLayout.h; sourceTree = "<group>"; };
 		A15FF6C9201090EF003D4C07 /* IMXCollectionViewTagsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXCollectionViewTagsFlowLayout.m; sourceTree = "<group>"; };
+		A15FF6E62010B2B9003D4C07 /* IMXSafeAreaKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSafeAreaKit.h; sourceTree = "<group>"; };
+		A15FF6E72010B2B9003D4C07 /* UIView+IMXSafeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IMXSafeArea.h"; sourceTree = "<group>"; };
+		A15FF6E82010B2B9003D4C07 /* UIView+IMXSafeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IMXSafeArea.m"; sourceTree = "<group>"; };
+		A15FF6E92010B2B9003D4C07 /* UIViewController+IMXSafeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IMXSafeArea.h"; sourceTree = "<group>"; };
+		A15FF6EA2010B2B9003D4C07 /* UIViewController+IMXSafeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IMXSafeArea.m"; sourceTree = "<group>"; };
+		A15FF6F12010B2C7003D4C07 /* IMXSegBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegBaseCell.h; sourceTree = "<group>"; };
+		A15FF6F22010B2C7003D4C07 /* IMXSegBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegBaseCell.m; sourceTree = "<group>"; };
+		A15FF6F32010B2C7003D4C07 /* IMXSegCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegCollectionView.h; sourceTree = "<group>"; };
+		A15FF6F42010B2C7003D4C07 /* IMXSegCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegCollectionView.m; sourceTree = "<group>"; };
+		A15FF6F52010B2C7003D4C07 /* IMXSegContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegContainer.h; sourceTree = "<group>"; };
+		A15FF6F62010B2C7003D4C07 /* IMXSegContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegContainer.m; sourceTree = "<group>"; };
+		A15FF6F72010B2C7003D4C07 /* IMXSegmentKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegmentKit.h; sourceTree = "<group>"; };
+		A15FF6F82010B2C7003D4C07 /* IMXSegmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXSegmentModel.h; sourceTree = "<group>"; };
+		A15FF6F92010B2C7003D4C07 /* IMXSegmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXSegmentModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +202,7 @@
 		A1133CA71F21F3A700D2A774 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A15FF6E52010B2B9003D4C07 /* IMXSafeAreaKit */,
 				A15FF68020107437003D4C07 /* IMXStyleKit */,
 			);
 			path = Utils;
@@ -182,6 +211,7 @@
 		A1133CA81F21F3CF00D2A774 /* Cpts */ = {
 			isa = PBXGroup;
 			children = (
+				A15FF6F02010B2C7003D4C07 /* IMXSegmentKit */,
 				A15FF6A9201090EF003D4C07 /* IMXListView */,
 				A15FF66D20107204003D4C07 /* IMXTabBarKit */,
 			);
@@ -378,6 +408,34 @@
 			path = Layout;
 			sourceTree = "<group>";
 		};
+		A15FF6E52010B2B9003D4C07 /* IMXSafeAreaKit */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF6E62010B2B9003D4C07 /* IMXSafeAreaKit.h */,
+				A15FF6E72010B2B9003D4C07 /* UIView+IMXSafeArea.h */,
+				A15FF6E82010B2B9003D4C07 /* UIView+IMXSafeArea.m */,
+				A15FF6E92010B2B9003D4C07 /* UIViewController+IMXSafeArea.h */,
+				A15FF6EA2010B2B9003D4C07 /* UIViewController+IMXSafeArea.m */,
+			);
+			path = IMXSafeAreaKit;
+			sourceTree = "<group>";
+		};
+		A15FF6F02010B2C7003D4C07 /* IMXSegmentKit */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF6F12010B2C7003D4C07 /* IMXSegBaseCell.h */,
+				A15FF6F22010B2C7003D4C07 /* IMXSegBaseCell.m */,
+				A15FF6F32010B2C7003D4C07 /* IMXSegCollectionView.h */,
+				A15FF6F42010B2C7003D4C07 /* IMXSegCollectionView.m */,
+				A15FF6F52010B2C7003D4C07 /* IMXSegContainer.h */,
+				A15FF6F62010B2C7003D4C07 /* IMXSegContainer.m */,
+				A15FF6F72010B2C7003D4C07 /* IMXSegmentKit.h */,
+				A15FF6F82010B2C7003D4C07 /* IMXSegmentModel.h */,
+				A15FF6F92010B2C7003D4C07 /* IMXSegmentModel.m */,
+			);
+			path = IMXSegmentKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -389,15 +447,21 @@
 				A15FF66B20107193003D4C07 /* IMXDeviceUtil.h in Headers */,
 				A15FF653201069FF003D4C07 /* IMXUIKitExtUtil.h in Headers */,
 				A15FF65A201069FF003D4C07 /* UIViewController+IMXExtFork.h in Headers */,
+				A15FF7012010B2C7003D4C07 /* IMXSegmentModel.h in Headers */,
+				A15FF6FE2010B2C7003D4C07 /* IMXSegContainer.h in Headers */,
 				A15FF67920107204003D4C07 /* IMXTabBarItem.h in Headers */,
 				A15FF67B20107204003D4C07 /* IMXTabbarItemModel.h in Headers */,
 				A15FF6A020108FFA003D4C07 /* IMXFlatButton.h in Headers */,
+				A15FF7002010B2C7003D4C07 /* IMXSegmentKit.h in Headers */,
 				A15FF6CA201090EF003D4C07 /* IMXCollectionView.h in Headers */,
 				A15FF68D20107438003D4C07 /* UIFont+IMXFontKit.h in Headers */,
+				A15FF6EC2010B2B9003D4C07 /* UIView+IMXSafeArea.h in Headers */,
 				A15FF6D2201090EF003D4C07 /* IMXCollectionReuseView.h in Headers */,
 				A15FF6DC201090EF003D4C07 /* IMXUITableReuseView.h in Headers */,
+				A15FF6FC2010B2C7003D4C07 /* IMXSegCollectionView.h in Headers */,
 				A15FF6A420108FFA003D4C07 /* IMXNoPasteTextField.h in Headers */,
 				A15FF65F2010701A003D4C07 /* IMXTipsShowUtil.h in Headers */,
+				A15FF6EE2010B2B9003D4C07 /* UIViewController+IMXSafeArea.h in Headers */,
 				A15FF68F20107438003D4C07 /* IMXIconfont.h in Headers */,
 				A15FF6E2201090EF003D4C07 /* IMXCollectionViewTagsFlowLayout.h in Headers */,
 				A15FF6CC201090EF003D4C07 /* IMXListViewDefine.h in Headers */,
@@ -405,6 +469,7 @@
 				A15FF6A620108FFA003D4C07 /* IMXTextView.h in Headers */,
 				A15FF6D0201090EF003D4C07 /* IMXBaseTableViewCell.h in Headers */,
 				A15FF69E20108FFA003D4C07 /* IMXButton.h in Headers */,
+				A15FF6EB2010B2B9003D4C07 /* IMXSafeAreaKit.h in Headers */,
 				A15FF69120107438003D4C07 /* IMXStyleKit.h in Headers */,
 				A15FF6DE201090EF003D4C07 /* IMXTableView.h in Headers */,
 				A15FF6A220108FFA003D4C07 /* IMXLineView.h in Headers */,
@@ -413,6 +478,7 @@
 				A15FF67D20107204003D4C07 /* IMXTabBarKit.h in Headers */,
 				A15FF68B20107438003D4C07 /* UIColor+IMXColorKit.h in Headers */,
 				A15FF67E20107204003D4C07 /* IMXTabBarViewController.h in Headers */,
+				A15FF6FA2010B2C7003D4C07 /* IMXSegBaseCell.h in Headers */,
 				A15FF654201069FF003D4C07 /* UIImage+IMXExtFork.h in Headers */,
 				A15FF67720107204003D4C07 /* IMXTabBar.h in Headers */,
 				A1133CB91F21FCCF00D2A774 /* IMXUIsCpt.h in Headers */,
@@ -523,10 +589,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15FF6FF2010B2C7003D4C07 /* IMXSegContainer.m in Sources */,
 				A15FF6DD201090EF003D4C07 /* IMXUITableReuseView.m in Sources */,
 				A15FF67A20107204003D4C07 /* IMXTabBarItem.m in Sources */,
+				A15FF6ED2010B2B9003D4C07 /* UIView+IMXSafeArea.m in Sources */,
 				A15FF6A720108FFA003D4C07 /* IMXTextView.m in Sources */,
 				A15FF6A520108FFA003D4C07 /* IMXNoPasteTextField.m in Sources */,
+				A15FF6EF2010B2B9003D4C07 /* UIViewController+IMXSafeArea.m in Sources */,
 				A15FF67C20107204003D4C07 /* IMXTabbarItemModel.m in Sources */,
 				A15FF69F20108FFA003D4C07 /* IMXButton.m in Sources */,
 				A15FF6DF201090EF003D4C07 /* IMXTableView.m in Sources */,
@@ -536,14 +605,17 @@
 				A15FF69020107438003D4C07 /* IMXIconfont.m in Sources */,
 				A15FF67820107204003D4C07 /* IMXTabBar.m in Sources */,
 				A15FF68C20107438003D4C07 /* UIColor+IMXColorKit.m in Sources */,
+				A15FF7022010B2C7003D4C07 /* IMXSegmentModel.m in Sources */,
 				A15FF655201069FF003D4C07 /* UIImage+IMXExtFork.m in Sources */,
 				A15FF6602010701A003D4C07 /* IMXTipsShowUtil.m in Sources */,
 				A15FF6A320108FFA003D4C07 /* IMXLineView.m in Sources */,
 				A15FF6D3201090EF003D4C07 /* IMXCollectionReuseView.m in Sources */,
 				A15FF67F20107204003D4C07 /* IMXTabBarViewController.m in Sources */,
 				A15FF66C20107193003D4C07 /* IMXDeviceUtil.m in Sources */,
+				A15FF6FD2010B2C7003D4C07 /* IMXSegCollectionView.m in Sources */,
 				A15FF68E20107438003D4C07 /* UIFont+IMXFontKit.m in Sources */,
 				A15FF6CF201090EF003D4C07 /* IMXBaseCollectionViewCell.m in Sources */,
+				A15FF6FB2010B2C7003D4C07 /* IMXSegBaseCell.m in Sources */,
 				A15FF6D1201090EF003D4C07 /* IMXBaseTableViewCell.m in Sources */,
 				A15FF65B201069FF003D4C07 /* UIViewController+IMXExtFork.m in Sources */,
 				A15FF659201069FF003D4C07 /* UIView+IMXFrameFork.m in Sources */,
