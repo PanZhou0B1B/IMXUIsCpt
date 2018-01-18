@@ -9,9 +9,9 @@
 #ifndef IMXUIsKit_h
 #define IMXUIsKit_h
 
-#import <IMXBaseCpt/IMXLineView.h>
-#import <IMXBaseCpt/IMXFlatButton.h>
-#import <IMXBaseCpt/IMXButton.h>
-#import <IMXBaseCpt/IMXTextView.h>
-#import <IMXBaseCpt/IMXNoPasteTextField.h>
+#import "IMXLineView.h"
+#import "IMXFlatButton.h"
+#import "IMXButton.h"
+#import "IMXTextView.h"
+#import "IMXNoPasteTextField.h"
 #endif /* IMXUIsKit_h */

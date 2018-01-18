@@ -8,7 +8,7 @@
 
 #import "IMXTextView.h"
 #import <Masonry/Masonry.h>
-#import "IMXObjectExtUtil.h"
+#import <IMXFuncCpt/IMXObjectExtUtil.h>
 #import "IMXStyleKit.h"
 
 @interface IMXTextView()<UITextViewDelegate,UITextFieldDelegate>
