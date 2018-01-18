@@ -70,6 +70,8 @@ Pod::Spec.new do |s|
     tips.dependency 'MBProgressHUD' ,'1.0.0'
     tips.dependency 'IMXUIsCpt/IMXUIKitExt'
     tips.dependency 'IMXUIsCpt/IMXStyleKit'
+
+    tips.compiler_flags = '-Wstrict-prototypes'
   end
 
 

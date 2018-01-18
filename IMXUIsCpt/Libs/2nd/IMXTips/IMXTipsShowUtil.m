@@ -8,7 +8,10 @@
 
 #import "IMXTipsShowUtil.h"
 #import <UIKit/UIKit.h>
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 #import <MBProgressHUD/MBProgressHUD.h>
+#pragma clang diagnostic pop
 #import "IMXUIKitExtUtil.h"
 #import "IMXStyleKit.h"
 static BOOL tips_show_flag = NO;
