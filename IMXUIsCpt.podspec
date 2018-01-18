@@ -32,34 +32,6 @@ Pod::Spec.new do |s|
       'IMXUIsCpt/Libs/2nd/IMXUIKitExt/*.{h}'
     ]
   end
-
-# IMXTips Cpt
-  s.subspec 'IMXTips' do |tips|
-    tips.source_files  = 'IMXUIsCpt/Libs/2nd/IMXTips/*.{h,m}'
-    tips.public_header_files = [
-      'IMXUIsCpt/Libs/2nd/IMXTips/*.{h}'
-    ]
-    tips.dependency 'MBProgressHUD' ,'1.0.0'
-    tips.dependency 'IMXUIsCpt/Libs/2nd/IMXUIKitExt'
-    tips.dependency 'IMXUIsCpt/Libs/2nd/IMXStyleKit'
-  end
-
-# IMXDeviceInfo Cpt
-  s.subspec 'IMXDeviceInfo' do |dinfo|
-    dinfo.source_files  = 'IMXUIsCpt/Libs/2nd/IMXDeviceInfo/*.{h,m}'
-    dinfo.public_header_files = [
-      'IMXUIsCpt/Libs/2nd/IMXDeviceInfo/*.{h}'
-    ]
-  end
-
-# IMXTabBarKit Cpt
-  s.subspec 'IMXTabBarKit' do |tabkit|
-    tabkit.source_files  = 'IMXUIsCpt/Cpts/IMXTabBarKit/*.{h,m}'
-    tabkit.public_header_files = [
-      'IMXUIsCpt/Cpts/IMXTabBarKit/*.{h}'
-    ]
-    tabkit.dependency 'Masonry' ,'1.1.0'
-  end
 # IMXStyleKit Cpt
   s.subspec 'IMXStyleKit' do |style|
     style.source_files  = 'IMXUIsCpt/Utils/IMXStyleKit/*.{h,m}'
@@ -78,6 +50,7 @@ Pod::Spec.new do |s|
       font.public_header_files = [
         'IMXUIsCpt/Utils/IMXStyleKit/IMXFont/*.{h}'
       ]
+      font.compiler_flags = '-Wunguarded-availability'
     end
     style.subspec 'IMXIconfont' do |icon|
       icon.source_files  = 'IMXUIsCpt/Utils/IMXStyleKit/IMXIconfont/*.{h,m}'
@@ -87,4 +60,24 @@ Pod::Spec.new do |s|
       icon.frameworks = 'CoreText'
     end
   end
+
+
+
+# IMXDeviceInfo Cpt
+  s.subspec 'IMXDeviceInfo' do |dinfo|
+    dinfo.source_files  = 'IMXUIsCpt/Libs/2nd/IMXDeviceInfo/*.{h,m}'
+    dinfo.public_header_files = [
+      'IMXUIsCpt/Libs/2nd/IMXDeviceInfo/*.{h}'
+    ]
+  end
+
+# IMXTabBarKit Cpt
+  s.subspec 'IMXTabBarKit' do |tabkit|
+    tabkit.source_files  = 'IMXUIsCpt/Cpts/IMXTabBarKit/*.{h,m}'
+    tabkit.public_header_files = [
+      'IMXUIsCpt/Cpts/IMXTabBarKit/*.{h}'
+    ]
+    tabkit.dependency 'Masonry' ,'1.1.0'
+  end
+
 end

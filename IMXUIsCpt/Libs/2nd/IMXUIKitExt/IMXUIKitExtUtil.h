@@ -16,5 +16,4 @@
 #import "UIView+IMXFrameFork.h"
 #import "UIViewController+IMXExtFork.h"
 #import "UIImage+IMXExtFork.h"
-#import "UIScrollView+Extension.h"
 #endif /* IMXUIKitExtUtil_h */
