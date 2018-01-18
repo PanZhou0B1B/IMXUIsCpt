@@ -126,16 +126,4 @@ static BOOL tips_show_flag = NO;
     [hud hideAnimated:YES afterDelay:delay];
 }
 
-/// 弹出一个提示
-+ (void)showToastWithMessage:(NSString *)message{
-    UIWindow *window = [UIViewController imx_window];
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:window animated:YES];
-    hud.userInteractionEnabled = NO;
-    hud.mode = MBProgressHUDModeText;
-    hud.detailsLabelText = message;
-    hud.margin = 10.f;
-    hud.removeFromSuperViewOnHide = YES;
-    [hud hide:YES afterDelay:1.5];
-}
-
 @end

@@ -18,6 +18,4 @@
 + (void)toastShow:(NSString *)msg;
 + (void)toastShow:(NSString *)msg afterDelay:(NSTimeInterval)delay;
 
-+ (void)showToastWithMessage:(NSString *)message;
-
 @end

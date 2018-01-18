@@ -61,6 +61,16 @@ Pod::Spec.new do |s|
     end
   end
 
+# IMXTips Cpt
+  s.subspec 'IMXTips' do |tips|
+    tips.source_files  = 'IMXUIsCpt/Libs/2nd/IMXTips/*.{h,m}'
+    tips.public_header_files = [
+      'IMXUIsCpt/Libs/2nd/IMXTips/*.{h}'
+    ]
+    tips.dependency 'MBProgressHUD' ,'1.0.0'
+    tips.dependency 'IMXUIsCpt/IMXUIKitExt'
+    tips.dependency 'IMXUIsCpt/IMXStyleKit'
+  end
 
 
 # IMXDeviceInfo Cpt
