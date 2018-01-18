@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
     tips.public_header_files = [
       'IMXUIsCpt/Libs/2nd/IMXTips/*.{h}'
     ]
-    tips.dependency 'MBProgressHUD' ,'1.0.0'
+    tips.dependency 'MBProgressHUD' ,'1.1.0'
     tips.dependency 'IMXUIsCpt/IMXUIKitExt'
     tips.dependency 'IMXUIsCpt/IMXStyleKit'
 
