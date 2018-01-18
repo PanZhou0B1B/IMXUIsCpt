@@ -60,4 +60,31 @@ Pod::Spec.new do |s|
     ]
     tabkit.dependency 'Masonry' ,'1.1.0'
   end
+# IMXStyleKit Cpt
+  s.subspec 'IMXStyleKit' do |style|
+    style.source_files  = 'IMXUIsCpt/Utils/IMXStyleKit/*.{h,m}'
+    style.public_header_files = [
+      'IMXUIsCpt/Utils/IMXStyleKit/*.{h}'
+    ]
+
+    style.subspec 'IMXColor' do |color|
+      color.source_files  = 'IMXUIsCpt/Utils/IMXStyleKit/IMXColor/*.{h,m}'
+      color.public_header_files = [
+        'IMXUIsCpt/Utils/IMXStyleKit/IMXColor/*.{h}'
+      ]
+    end
+    style.subspec 'IMXFont' do |font|
+      font.source_files  = 'IMXUIsCpt/Utils/IMXStyleKit/IMXFont/*.{h,m}'
+      font.public_header_files = [
+        'IMXUIsCpt/Utils/IMXStyleKit/IMXFont/*.{h}'
+      ]
+    end
+    style.subspec 'IMXIconfont' do |icon|
+      icon.source_files  = 'IMXUIsCpt/Utils/IMXStyleKit/IMXIconfont/*.{h,m}'
+      icon.public_header_files = [
+        'IMXUIsCpt/Utils/IMXStyleKit/IMXIconfont/*.{h}'
+      ]
+      icon.frameworks = 'CoreText'
+    end
+  end
 end

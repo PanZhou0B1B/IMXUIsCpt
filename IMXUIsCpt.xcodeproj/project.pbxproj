@@ -42,6 +42,13 @@
 		A15FF67D20107204003D4C07 /* IMXTabBarKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF67420107204003D4C07 /* IMXTabBarKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF67E20107204003D4C07 /* IMXTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF67520107204003D4C07 /* IMXTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15FF67F20107204003D4C07 /* IMXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF67620107204003D4C07 /* IMXTabBarViewController.m */; };
+		A15FF68B20107438003D4C07 /* UIColor+IMXColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF68220107438003D4C07 /* UIColor+IMXColorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF68C20107438003D4C07 /* UIColor+IMXColorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF68320107438003D4C07 /* UIColor+IMXColorKit.m */; };
+		A15FF68D20107438003D4C07 /* UIFont+IMXFontKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF68520107438003D4C07 /* UIFont+IMXFontKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF68E20107438003D4C07 /* UIFont+IMXFontKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF68620107438003D4C07 /* UIFont+IMXFontKit.m */; };
+		A15FF68F20107438003D4C07 /* IMXIconfont.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF68820107438003D4C07 /* IMXIconfont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15FF69020107438003D4C07 /* IMXIconfont.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FF68920107438003D4C07 /* IMXIconfont.m */; };
+		A15FF69120107438003D4C07 /* IMXStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A15FF68A20107438003D4C07 /* IMXStyleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +88,13 @@
 		A15FF67420107204003D4C07 /* IMXTabBarKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabBarKit.h; sourceTree = "<group>"; };
 		A15FF67520107204003D4C07 /* IMXTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXTabBarViewController.h; sourceTree = "<group>"; };
 		A15FF67620107204003D4C07 /* IMXTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXTabBarViewController.m; sourceTree = "<group>"; };
+		A15FF68220107438003D4C07 /* UIColor+IMXColorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IMXColorKit.h"; sourceTree = "<group>"; };
+		A15FF68320107438003D4C07 /* UIColor+IMXColorKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IMXColorKit.m"; sourceTree = "<group>"; };
+		A15FF68520107438003D4C07 /* UIFont+IMXFontKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+IMXFontKit.h"; sourceTree = "<group>"; };
+		A15FF68620107438003D4C07 /* UIFont+IMXFontKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+IMXFontKit.m"; sourceTree = "<group>"; };
+		A15FF68820107438003D4C07 /* IMXIconfont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXIconfont.h; sourceTree = "<group>"; };
+		A15FF68920107438003D4C07 /* IMXIconfont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMXIconfont.m; sourceTree = "<group>"; };
+		A15FF68A20107438003D4C07 /* IMXStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMXStyleKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,7 @@
 		A1133CA71F21F3A700D2A774 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A15FF68020107437003D4C07 /* IMXStyleKit */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -212,6 +227,44 @@
 			path = IMXTabBarKit;
 			sourceTree = "<group>";
 		};
+		A15FF68020107437003D4C07 /* IMXStyleKit */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF68120107437003D4C07 /* IMXColor */,
+				A15FF68420107438003D4C07 /* IMXFont */,
+				A15FF68720107438003D4C07 /* IMXIconfont */,
+				A15FF68A20107438003D4C07 /* IMXStyleKit.h */,
+			);
+			path = IMXStyleKit;
+			sourceTree = "<group>";
+		};
+		A15FF68120107437003D4C07 /* IMXColor */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF68220107438003D4C07 /* UIColor+IMXColorKit.h */,
+				A15FF68320107438003D4C07 /* UIColor+IMXColorKit.m */,
+			);
+			path = IMXColor;
+			sourceTree = "<group>";
+		};
+		A15FF68420107438003D4C07 /* IMXFont */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF68520107438003D4C07 /* UIFont+IMXFontKit.h */,
+				A15FF68620107438003D4C07 /* UIFont+IMXFontKit.m */,
+			);
+			path = IMXFont;
+			sourceTree = "<group>";
+		};
+		A15FF68720107438003D4C07 /* IMXIconfont */ = {
+			isa = PBXGroup;
+			children = (
+				A15FF68820107438003D4C07 /* IMXIconfont.h */,
+				A15FF68920107438003D4C07 /* IMXIconfont.m */,
+			);
+			path = IMXIconfont;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -225,8 +278,12 @@
 				A15FF65A201069FF003D4C07 /* UIViewController+IMXExtFork.h in Headers */,
 				A15FF67920107204003D4C07 /* IMXTabBarItem.h in Headers */,
 				A15FF67B20107204003D4C07 /* IMXTabbarItemModel.h in Headers */,
+				A15FF68D20107438003D4C07 /* UIFont+IMXFontKit.h in Headers */,
 				A15FF65F2010701A003D4C07 /* IMXTipsShowUtil.h in Headers */,
+				A15FF68F20107438003D4C07 /* IMXIconfont.h in Headers */,
+				A15FF69120107438003D4C07 /* IMXStyleKit.h in Headers */,
 				A15FF67D20107204003D4C07 /* IMXTabBarKit.h in Headers */,
+				A15FF68B20107438003D4C07 /* UIColor+IMXColorKit.h in Headers */,
 				A15FF67E20107204003D4C07 /* IMXTabBarViewController.h in Headers */,
 				A15FF654201069FF003D4C07 /* UIImage+IMXExtFork.h in Headers */,
 				A15FF67720107204003D4C07 /* IMXTabBar.h in Headers */,
@@ -340,11 +397,14 @@
 			files = (
 				A15FF67A20107204003D4C07 /* IMXTabBarItem.m in Sources */,
 				A15FF67C20107204003D4C07 /* IMXTabbarItemModel.m in Sources */,
+				A15FF69020107438003D4C07 /* IMXIconfont.m in Sources */,
 				A15FF67820107204003D4C07 /* IMXTabBar.m in Sources */,
+				A15FF68C20107438003D4C07 /* UIColor+IMXColorKit.m in Sources */,
 				A15FF655201069FF003D4C07 /* UIImage+IMXExtFork.m in Sources */,
 				A15FF6602010701A003D4C07 /* IMXTipsShowUtil.m in Sources */,
 				A15FF67F20107204003D4C07 /* IMXTabBarViewController.m in Sources */,
 				A15FF66C20107193003D4C07 /* IMXDeviceUtil.m in Sources */,
+				A15FF68E20107438003D4C07 /* UIFont+IMXFontKit.m in Sources */,
 				A15FF65B201069FF003D4C07 /* UIViewController+IMXExtFork.m in Sources */,
 				A15FF659201069FF003D4C07 /* UIView+IMXFrameFork.m in Sources */,
 			);
