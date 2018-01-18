@@ -14,6 +14,7 @@
 (imxfont_ios_version >= [@ #_version floatValue])
 
 @implementation UIFont (IMXFontKit)
+
 #pragma mark ======  font size  ======
 + (CGFloat)imx_fontSize_T1 {
     return 20.0f;
@@ -63,53 +64,67 @@
 }
 #pragma mark ======  system bold font  ======
 + (UIFont *)imx_boldFont_T1 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability"
     if (imxfont_iOS_version_equal_later(8.2)) {
         return [UIFont systemFontOfSize:[self imx_fontSize_T1] weight:UIFontWeightMedium];
     } else {
         return [UIFont boldSystemFontOfSize:[self imx_fontSize_T1]];
     }
+#pragma clang diagnostic pop
 }
 + (UIFont *)imx_boldFont_T2 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability"
     if (imxfont_iOS_version_equal_later(8.2)) {
         return [UIFont systemFontOfSize:[self imx_fontSize_T2] weight:UIFontWeightMedium];
     } else {
         return [UIFont boldSystemFontOfSize:[self imx_fontSize_T2]];
     }
+#pragma clang diagnostic pop
 }
 + (UIFont *)imx_boldFont:(CGFloat)size {
-    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability"
     if (imxfont_iOS_version_equal_later(8.2)) {
         return [UIFont systemFontOfSize:size weight:UIFontWeightMedium];
     } else {
         return [UIFont boldSystemFontOfSize:size];
     }
+#pragma clang diagnostic pop
 }
 #pragma mark ======  system thin font  ======
 + (UIFont *)imx_thinFont_T1 {
-    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability"
     if (imxfont_iOS_version_equal_later(8.2)) {
         return [UIFont systemFontOfSize:[self imx_fontSize_T1] weight:UIFontWeightThin];
     } else {
         return [UIFont fontWithName:@"HelveticaNeue-Thin" size:[self imx_fontSize_T1]];
     }
+#pragma clang diagnostic pop
 }
 + (UIFont *)imx_thinFont:(CGFloat)size {
-    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability"
     if (imxfont_iOS_version_equal_later(8.2)) {
         return [UIFont systemFontOfSize:size weight:UIFontWeightThin];
     } else {
         return [UIFont fontWithName:@"HelveticaNeue-Thin" size:size];
     }
+#pragma clang diagnostic pop
 }
 #pragma mark ======  helveticaNeue font  ======
 + (UIFont *)imx_helNeueFont:(CGFloat)size {
-    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunguarded-availability"
     return [self fontWithName:@"HelveticaNeue" size:size];
     if (imxfont_iOS_version_equal_later(8.2)) {
         return [UIFont systemFontOfSize:size weight:UIFontWeightThin];
     } else {
         return [UIFont fontWithName:@"HelveticaNeue-Thin" size:size];
     }
+#pragma clang diagnostic pop
 }
 + (UIFont *)imx_boldHelNeueFont:(CGFloat)size {
     
